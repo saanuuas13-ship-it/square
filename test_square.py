@@ -5,3 +5,6 @@ def test_positive():
 
 def test_negative():
     assert calculate_square(-4) == 16
+
+def test_for_three():
+    assert calculate_square(3) == 9 
