@@ -1,4 +1,4 @@
-FROM square import calculate_square
+from square import calculate_square
 
 def test_positive():
     assert calculate_square(2) == 4
